@@ -1,0 +1,241 @@
+body{
+    background-color: rgb(87, 85, 85);
+    color: black;
+}
+
+.page_wrapper{
+    background-color:rgb(253, 247, 247);
+    width: 78%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 3rem 5rem;
+    padding: 1rem 5rem;
+    font-weight: 548;
+    border-radius: 3rem;
+}
+
+.page_header{
+    display: flex;
+    font-size: 14px;
+   
+}
+
+.header{
+    display: flex;
+    align-self: center;
+}
+
+#header_message{
+    margin-left: 2rem;
+}
+nav{
+    align-self: center;
+  margin-left: 13rem;
+  
+}
+
+.nav_item{
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}
+
+#nav_item{
+    margin-left: 18rem;
+   
+}
+
+#nav_button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.8rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+}
+
+.message_box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 125%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    
+}
+
+.message_header{
+    font:1rem sans-serif;
+    font-weight: 799;
+    display: flex;
+}
+
+.message_1{
+    margin-top: 2rem;
+    max-width: 72%;
+    font-size: 47px;
+    font-weight: 808;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.message_2{
+    margin-top: 3rem;
+    max-width: 72%;
+    font-size: 17px;
+    font-weight: 608;
+    font-family: sans-serif;
+}
+
+
+#btn_1{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.3rem;
+    padding-bottom: 1.7rem;
+    border-radius: 0.4rem;
+    font:1rem sans-serif;
+    font-weight: 299;
+    margin-top: 5rem;
+}
+
+
+
+#btn_2{
+    background-color: rgb(253, 247, 247) ;
+    border: 0.1rem solid rgb(253, 247, 247);
+    padding: 0.5rem 1.8rem;
+    font:1rem sans-serif;
+    font-weight: 799;
+    border-radius: 0.2rem;
+
+}
+
+#img{
+    width: 35%;
+    border-radius: 2rem;
+    height: 42rem;
+    
+}
+
+#img_box{
+    width: 12%;
+    background-color:white;
+    height: 15rem;
+    padding: 1rem 2rem;
+    margin-left: -7rem;
+    border-radius: 1rem;
+    margin-top: 10rem;
+}
+
+.line_2{
+    margin-left: 0rem;
+    border-top: 0.1rem solid black;
+    width: 30%;
+}
+
+
+#end_box{
+    display: flex;
+}
+
+
+.img_1{
+    width: 17%;
+    border-radius: 13.7rem;
+    height: 1.9rem;
+  
+}
+
+.end_message_box{
+    display: flex;
+    margin-left: 2rem;
+    align-self: center;
+    margin-top: -6px;
+}
+
+.img_2{
+    padding: 0.3rem;
+    width: 24%;
+    border-radius: 1rem;
+    height: 2rem;
+    background-color: rgb(127, 240, 255);
+}
+
+
+#end_message{
+    margin-top: -7px;
+    margin-left: 1rem;
+    font: 0.8rem sans-serif;
+    width: 680%;
+}
+
+
+#end_message_header{
+    font: 1rem sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+   
+}
+
+#end_message_2{
+    margin-left: 34rem;
+    display: flex;
+   
+}
+
+
+
+#message_1{
+    display: flex;
+    background-color: white;
+    color:  black;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.5rem;
+    font: 0.6rem sans-serif;
+    width: 50%;
+    height: 2.6rem;
+}
+
+
+#message_2{
+    display: flex;
+    background-color: white;
+    color:  black;
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.5rem;
+    font: 0.6rem sans-serif;
+    width: 50%;
+    height: 2.6rem;
+    margin: 0px 2rem;
+}
+
+
+
+#img_1{
+    width: 17%;
+    border-radius: 10.7rem;
+    height: 2rem;
+  align-self: center;
+  padding-right: 0.7rem ;
+}
+
+.app{
+    font-size: 0.5rem;
+}
+
+@media (max-width: 1078px) and (min-width: 722px){
+    body{
+        background-color: rgb(87, 85, 85);
+        color: rgb(69, 224, 224);
+    
+}
+       
+    
+    .page_wrapper{
+        background-color: white;
+       max-width: 65%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 3rem 5rem;
+        padding: 1rem 4rem;
+        font-weight: 548;
+        border-radius: 2rem;
+    }
+
+}
